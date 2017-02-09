@@ -1,0 +1,41 @@
+@import url("reset.css");
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@var) { 
+    display: -webkit-box;
+    -webkit-box-orient: @var;
+}
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+.wrap {
+    .box(vertical);
+    .whb(100%,100%,none);
+   
+    background: url(../img/ba.png)no-repeat center center ; 
+    background-size: 100% 100%;
+
+    section {
+   -webkit-box-flex: 1;
+          nav {
+       
+            img {
+                .whb(auto,10.3rem,none);
+            }
+            span {
+                font-size: 2rem;
+                color: #000000;
+                font-weight: bold;
+            }
+        }
+    }
+}

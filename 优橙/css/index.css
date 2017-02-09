@@ -1,0 +1,137 @@
+@import url(m_reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%;
+  background: none;
+  background: url(../img/img/1.jpg);
+  background-size: 100% 100%;
+}
+.wrap header {
+  width: 100%;
+  height: 20rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+.wrap header dl {
+  width: 10rem;
+  height: 14.2rem;
+  background: none;
+  margin-bottom: -6rem;
+}
+.wrap header dl dt {
+  text-align: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+.wrap header dl dt img {
+  width: 100%;
+  height: 10rem;
+  background: none;
+}
+.wrap header dl dd {
+  width: 100%;
+  height: 5.3rem;
+  background: none;
+  text-align: center;
+  font-size: 2.2rem;
+}
+.wrap section .phone,
+.wrap section .pwd {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 2rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap section .phone span,
+.wrap section .pwd span {
+  display: block;
+  width: 3.4rem;
+  height: auto;
+  background: none;
+  margin-right: 1rem;
+}
+.wrap section .phone span img,
+.wrap section .pwd span img {
+  width: 3.4rem;
+  height: auto;
+  background: none;
+}
+.wrap section .phone .shu,
+.wrap section .pwd .shu {
+  -webkit-box-flex: 1;
+  padding-top: 1rem;
+}
+.wrap section .phone .shu input,
+.wrap section .pwd .shu input {
+  width: 100%;
+  font-size: 1.6rem;
+  outline-style: none ;
+  border-style: none ;
+  text-shadow: none ;
+  background-color: transparent;
+  border-bottom: 0.2rem solid #ff7d1b;
+  padding-bottom: 0.4rem;
+}
+.wrap section .phone .shu1,
+.wrap section .pwd .shu1 {
+  -webkit-box-flex: 1;
+  padding-top: 1rem;
+}
+.wrap section .phone .shu1 input,
+.wrap section .pwd .shu1 input {
+  width: 100%;
+  font-size: 1.6rem;
+  outline-style: none ;
+  border-style: none ;
+  text-shadow: none ;
+  background: url(../img/images/eye_03.png) no-repeat right center;
+  background-size: 2rem auto;
+  background-color: transparent;
+  border-bottom: 0.2rem solid #ff7d1b;
+  padding-bottom: 0.4rem;
+}
+.wrap section .div {
+  margin-top: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.wrap section .div p {
+  width: 100%;
+  height: 4rem;
+  background: #ff7f1d;
+  border: .1rem solid #ff7f1d;
+  border-radius: 5px 5px 5px 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.4rem;
+}
+.wrap section .a span a {
+  color: #5f86b1 ;
+}
+.wrap section .a span #o {
+  float: left;
+  padding-left: 2rem;
+}
+.wrap section .a span #n {
+  float: right;
+  padding-right: 2rem;
+}

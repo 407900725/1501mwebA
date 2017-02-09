@@ -1,0 +1,34 @@
+@import url("reset.css");
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.wrap section {
+  -webkit-box-flex: 1;
+}
+.wrap section .quan {
+  background: url(../img/ba.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+.wrap section nav img {
+  width: auto;
+  height: 10.3rem;
+  background: none;
+}
+.wrap section nav span {
+  font-size: 2rem;
+  color: #000000;
+  font-weight: bold;
+}

@@ -1,0 +1,85 @@
+@import url("reset.css");
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 4.7rem;
+  background: #f7f7f7;
+}
+.wrap header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap header img {
+  width: auto;
+  height: 1.5rem;
+  background: none;
+  padding-left: 0.5rem;
+  padding-top: 1.6rem;
+}
+.wrap header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.7rem;
+  font-size: 1.6rem;
+  padding-right: 2rem;
+}
+.wrap section {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap section dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.6 rem;
+  background: #f7f7f7;
+}
+.wrap section dl dt {
+  line-height: 3.8rem;
+  padding-left: 1rem;
+}
+.wrap section dl dd {
+  padding-left: 1rem;
+  -webkit-box-flex: 1;
+}
+.wrap section dl dd input {
+  width: 95%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  border: 0 #FFFFFF solid;
+}
+.wrap section dl #three input {
+  width: 95%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  background: url(../img/help/images/right_03.png) no-repeat right center;
+  background-size: .7rem auto;
+  border: 0 #FFFFFF solid;
+}
+.wrap section .div {
+  margin-top: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.wrap section .div p {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1d;
+  border: .1rem solid #ff7f1d;
+  border-radius: 5px 5px 5px 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 3rem;
+}
